@@ -1,0 +1,113 @@
+{
+  "cats": [
+    {
+      "name": "Ana",
+      "age": 1,
+      "gender": "Female",
+      "description": "Ana is a graceful and elegant cat who enjoys lounging in the sun and receiving gentle pets.",
+      "image": "assets/img/adopt_11.jpg"
+    },
+    {
+      "name": "Simba",
+      "age": 3,
+      "gender": "Male",
+      "description": "Simba is a majestic cat with a mane-like fur who loves to play and cuddle with his favorite humans.",
+      "image": "assets/img/adopt_12.jpg"
+    },
+    {
+      "name": "Mittens",
+      "age": 2,
+      "gender": "Female",
+      "description": "Mittens is a sweet and affectionate cat who adores being held and cuddled by her human companions.",
+      "image": "assets/img/adopt_13.jpg"
+    },
+    {
+      "name": "Max",
+      "age": 4,
+      "gender": "Male",
+      "description": "Max is a dignified and independent cat who enjoys lounging in quiet corners and observing his surroundings.",
+      "image": "assets/img/adopt_14.jpg"
+    },
+    {
+      "name": "Smokey",
+      "age": 6,
+      "gender": "Male",
+      "description": "Smokey is a calm and gentle cat who loves nothing more than relaxing in cozy spots and receiving gentle pets.",
+      "image": "assets/img/adopt_15.jpg"
+    },
+    {
+      "name": "Pablo",
+      "age": 1,
+      "breed": "Domestic Shorthair",
+      "gender": "Male",
+      "description": "Pablo is gentle and affectionate, always seeking out cuddles and chin scratches.",
+      "image": "assets/img/adopt_1.jpg"
+    },
+    {
+      "name": "Oreo",
+      "age": 2,
+      "breed": "Siamese Mix",
+      "gender": "Male",
+      "description": "Oreo is a social butterfly who gets along well with other cats and adores being the center of attention.",
+      "image": "assets/img/adopt_2.jpg"
+    },
+    {
+      "name": "Bella",
+      "age": 1,
+      "breed": "Maine Coon",
+      "gender": "Female",
+      "description": "Bella is a gentle soul who craves human companionship and will happily curl up in your lap for hours.",
+      "image": "assets/img/adopt_3.jpg"
+    },
+    {
+      "name": "Benny",
+      "age": 1,
+      "gender": "Male",
+      "description": "Benny is a laid-back and affectionate cat who enjoys lounging around and receiving belly rubs.",
+      "image": "assets/img/adopt_4.jpg"
+    },
+    {
+      "name": "Oliver",
+      "age": 1,
+      "gender": "Male",
+      "description": "Oliver is an adventurous and playful cat who loves exploring the outdoors and chasing butterflies.",
+      "image": "assets/img/adopt_5.jpg"
+    },
+    {
+      "name": "Morris",
+      "age": 9,
+      "gender": "Male",
+      "description": "Morris is a friendly and outgoing cat who enjoys meeting new people and lounging in sunny spots.",
+      "image": "assets/img/adopt_6.jpg"
+    },
+    {
+      "name": "Billy",
+      "age": 4,
+      "gender": "Male",
+      "description": "Billy is a curious and playful cat who loves investigating new toys and climbing to high places.",
+      "image": "assets/img/adopt_7.jpg"
+    },
+    {
+      "name": "Nina",
+      "age": 1,
+      "gender": "Female",
+      "description": "Nina is an affectionate and energetic cat who enjoys playing with feather toys and cuddling up with her humans.",
+      "image": "assets/img/adopt_8.jpg"
+    },
+    {
+      "name": "Luna",
+      "age": 3,
+      "gender": "Female",
+      "description": "Luna is a gentle and playful cat who enjoys chasing laser pointers and curling up in cozy blankets.",
+      "image": "assets/img/adopt_9.jpg"
+    },
+    {
+      "name": "Jim",
+      "age": 2,
+      "gender": "Male",
+      "description": "Jim is an intelligent and active cat who enjoys interactive toys and engaging in games of fetch.",
+      "image": "assets/img/adopt_10.jpg"
+    }
+
+  ]
+}

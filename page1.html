@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cat's Meow Sanctuary</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- my css -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-navbar py-0">
+    <!-- Logo -->
+    <div class="d-flex mx-auto">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/Cat_Logo_.png" alt="logo" height="100">
+      </a>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="d-flex mx-auto">
+      <!-- Button so the nav menu is still accesible on small windows/mobile devices-->
+      <button class="navbar-toggler mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between display-6 fs-2 fw-normal" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-3">
+            <a class="nav-link nav-size" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link nav-size" href="page1.html">About us</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link nav-size" href="gallery.html">Meet our cats</a>
+          </li>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle nav-size" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Adoption
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="page2.html">Adoption Process</a>
+              <a class="dropdown-item" href="page3.html">Adoption Application</a>
+              <a class="dropdown-item" href="page4.html">Happy Endings</a>
+            </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- About Us Banner -->
+  <header class="position-relative">
+    <img class="img-fluid w-100" src="assets/img/banner_2.jpg" alt="banner">
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-light">
+      <h1 class="display-5 fw-normal text-uppercase bg-dark bg-opacity-25 p-3 rounded">About us</h1>
+    </div>
+  </header>
+  <!-- General container -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Our Team -->
+      <main class="col-md-12 col-lg-8 col-xxl-9">
+        <div class="d-flex justify-content-center">
+          <div class="col-8">
+            <div class="container">
+              <h2 class="text-uppercase text-letter-spacing-xs mb-1 mt-5 fw-semibold text-center">Our Team</h2>
+              <hr class="hr-primary mb-5">
+              <div class="row mb-5">
+                <figure class="col-md-12 col-lg-6 order-lg-2 mt-3 text-center">
+                  <img src="assets/img/team_1.jpg" alt="TeamMember1"
+                    class="img-fluid border-white border-w-5 w-60 rounded-circle shadow">
+                </figure>
+                <div class="col-lg-6 flex-valign text-lg-right mt-5">
+                  <h3 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold">
+                    Tommy "Whiskers" Johnson
+                  </h3>
+                  <h5 class="fw-normal fst-italic">Cat Caretaker</h5>
+                  <hr class="hr-primary mb-3">
+                  <p class="fs-5 fw-light p-size">Tommy is passionate about feline welfare. He stumbled upon The Cat's
+                    Meow
+                    Sanctuary
+                    while volunteering at a local animal shelter. Entranced by the charm of the sanctuary and its
+                    inhabitants,
+                    he decided to dedicate
+                    himself to caring for the cats full-time.</p>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <figure class="col-md-12 col-lg-6 text-md-right text-center">
+                  <img src="assets/img/team_3.jpg" alt="TeamMember2"
+                    class="img-fluid border-white border-w-5 w-60 rounded-circle shadow">
+                </figure>
+                <div class="col-lg-6 flex-valign mt-5">
+                  <h3 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold">
+                    Emily "Purrfect Pal" Davis
+                  </h3>
+                  <h5 class="fw-normal fst-italic">Volunteer Coordinator</h5>
+                  <hr class="hr-primary mb-3">
+                  <p class="fs-5 fw-light p-size">Isabella's journey with cats began when she adopted her first rescue
+                    kitten,
+                    Luna.
+                    Inspired by Luna's
+                    resilience and the joy she brought into her life, Isabella became deeply involved in animal welfare.
+                    As
+                    the
+                    volunteer coordinator at The Cat's Meow Sanctuary, she fosters a sense of community among volunteers
+                    and
+                    ensures that every cat receives the love and attention they deserve.</p>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <figure class="col-md-12 col-lg-6 order-lg-2 mt-3 text-center">
+                  <img src="assets/img/team_4.jpg" alt="TeamMember3"
+                    class="img-fluid border-white border-w-5 w-60 rounded-circle shadow">
+                </figure>
+                <div class="col-lg-6 flex-valign text-md-right mt-5">
+                  <h3 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold">
+                    Samantha "Whisker Whisperer" Rodriguez
+                  </h3>
+                  <h5 class="fw-normal fst-italic">Adoption Coordinator</h5>
+                  <hr class="hr-primary mb-3">
+                  <p class="fs-5 fw-light p-size">Samantha's love for cats knows no bounds. From a young age, she was
+                    captivated by
+                    their grace and
+                    independence. After completing her degree in animal science, she sought a way to make a meaningful
+                    impact
+                    in
+                    the lives of felines. Joining The Cat's Meow Sanctuary as an adoption coordinator was a natural fit,
+                    allowing her to match cats with loving forever homes.</p>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <figure class="col-md-12 col-lg-6 text-md-right text-center">
+                  <img src="assets/img/team_5.jpg" alt="TeamMember4"
+                    class="img-fluid border-white border-w-5 w-60 rounded-circle shadow">
+                </figure>
+                <div class="col-lg-6 flex-valign mt-5">
+                  <h3 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold">
+                    Mr. Steven "Paws" Lim
+                  </h3>
+                  <h5 class="fw-normal fst-italic">Senior Cat Behavior Specialist</h5>
+                  <hr class="hr-primary mb-3">
+                  <p class="fs-5 fw-light p-size">Mr. Lim brings decades of experience and wisdom to The Cat's Meow
+                    Sanctuary. With
+                    his gentle demeanor
+                    and
+                    deep understanding of feline behavior, he helps even the most timid cats feel at home. After
+                    retiring
+                    from
+                    a
+                    successful career as a veterinarian, Mr. Lim found solace and purpose in supporting cats in need.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Social media collaborators -->
+      <aside class="col-md-12 col-lg-4 col-xxl-3 mt-md-5 pt-4">
+        <div class="d-flex-column p-3 m-4 rounded-3 bg-light shadow">
+          <h2 class="word-wrap-break text-uppercase text-letter-spacing-xs mb-1 fw-semibold p-2 text-center">Social
+            Media Collaborators</h2>
+          <hr class="hr-primary mb-5">
+          <ul class="list-unstyled d-flex-column text-center my-4">
+            <li>
+              <h3 class="word-wrap-break fs-4 fw-medium">Hannah Shaw "Kitten Lady"</h3><br>
+              <img src="assets/img/collaborator_1.jpg" alt="Collaborator1"
+                class="img-fluid border-white border-w-5 social-w w-md-80 w-lg-60 rounded-circle mb-3">
+              <p class="fs-5 fw-light">Follow Kitten Lady's inspiring rescue stories and cat care tips on Instagram.</p>
+
+              <a href="https://www.instagram.com/kittenxlady/" target="_blank"
+                class="btn btn-ig-color btn-instagram rounded-circle">
+                <i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/kittenxlady" target="_blank"
+                class="btn btn-fb-color btn-facebook rounded-circle">
+                <i class="fab fa-facebook"></i></a>
+              <a href="https://www.youtube.com/@KittenLady" target="_blank"
+                class="btn btn-yt-color btn-youtube rounded-circle">
+                <i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+          <hr class="hr-primary mb-4">
+          <ul class="list-unstyled d-flex-column text-center">
+            <li>
+              <h3 class="word-wrap-break fs-4 fw-medium">Jackson Galaxy</h3><br>
+              <img src="assets/img/collaborator_2.jpg" alt="Collaborator2"
+                class="img-fluid border-white border-w-5 social-w w-md-80 w-lg-60 rounded-circle mb-3">
+              <p class="fs-5 fw-light p-size">Learn about cat behavior and training from the "Cat Daddy" himself on
+                Instagram.
+              </p>
+              <a href="https://www.instagram.com/thecatdaddy/" target="_blank"
+                class="btn btn-ig-color btn-instagram rounded-circle">
+                <i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/JacksonGalaxy" target="_blank"
+                class="btn btn-fb-color btn-facebook rounded-circle">
+                <i class="fab fa-facebook"></i></a>
+              <a href="https://www.youtube.com/@JacksonGalaxy" target="_blank"
+                class="btn btn-yt-color btn-youtube rounded-circle">
+                <i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+          <hr class="hr-primary mb-4">
+          <ul class="list-unstyled d-flex-column text-center">
+            <li>
+              <h3 class="word-wrap-break fs-4 fw-medium">Nala Cat</h3><br>
+              <img src="assets/img/collaborator_3.jpg" alt="Collaborator3"
+                class="img-fluid border-white border-w-5 social-w w-md-80 w-lg-60 rounded-circle mb-3">
+              <p class="fs-5 fw-light p-size">Follow Nala Cat's adorable adventures and support animal rescue efforts on
+                Instagram.</p>
+              <a href="https://www.instagram.com/nala_cat/" target="_blank"
+                class="btn btn-ig-color btn-instagram rounded-circle">
+                <i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/nalacatshow/?ref=bookmarks" target="_blank"
+                class="btn btn-fb-color btn-facebook rounded-circle">
+                <i class="fab fa-facebook"></i></a>
+              <a href="https://www.youtube.com/@iamnalacat" target="_blank"
+                class="btn btn-yt-color btn-youtube rounded-circle">
+                <i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Our Values -->
+      <section class="row">
+        <!-- Imagen -->
+        <figure class="col-md-12 col-lg-4 mt-5">
+          <img src="assets/img/cat_5.jpg" alt="cathi5" class="img-fluid rounded shadow m-3">
+        </figure>
+        <article class="col-md-12 col-lg-8">
+          <div class="m-2 col-12 p-3">
+            <h2 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold text-center">Our Values</h2>
+            <hr class="hr-primary">
+            <p class="col-12 fs-5 p-2 p-size">At The Cat's Meow Sanctuary, we are guided by a set of core values
+              that shape our
+              approach to
+              feline welfare
+              and
+              community engagement. These values reflect our commitment to providing a safe, loving, and enriching
+              environment
+              for every cat in our care:</p>
+            <!-- descriptive list -->
+            <dl class="fs-5 p-size">
+              <dt>Compassion:</dt>
+              <dd>We believe in treating every cat with kindness, respect, and empathy. Our compassionate approach
+                ensures
+                that
+                each feline resident receives the individualized care and attention they need to thrive.</dd>
+
+              <dt>Rescue and Rehabilitation:</dt>
+              <dd>We are dedicated to rescuing cats from situations of neglect, abuse, and homelessness. Through our
+                rehabilitation programs, we provide veterinary care, socialization, and behavioral support to help
+                cats
+                heal
+                both physically and emotionally.</dd>
+
+              <dt>Education:</dt>
+              <dd>We are passionate about educating the community on responsible pet ownership, feline behavior, and
+                the
+                importance of spaying and neutering. By empowering individuals with knowledge, we strive to create a
+                more
+                compassionate and informed society.</dd>
+
+              <dt>Inclusivity:</dt>
+              <dd>We welcome people of all backgrounds, ages, and abilities to join our mission of caring for cats in
+                need.
+                Our
+                inclusive community fosters a sense of belonging and mutual respect among volunteers, staff, and
+                supporters.
+              </dd>
+
+              <dt>Transparency:</dt>
+              <dd>We believe in transparency and accountability in all aspects of our operations. We openly
+                communicate
+                with
+                our
+                supporters, providing updates on our programs, finances, and the impact of their contributions.</dd>
+
+              <dt>Stewardship:</dt>
+              <dd>We are committed to responsible stewardship of the resources entrusted to us, including financial
+                donations,
+                volunteer time, and the environment. Our sustainable practices ensure that we can continue to serve
+                cats
+                in
+                need
+                for generations to come.</dd>
+
+              <dt>Collaboration:</dt>
+              <dd>We recognize that our impact is magnified through collaboration with other animal welfare
+                organizations,
+                community partners, and individuals who share our passion for cats. By working together, we can
+                achieve
+                greater
+                outcomes for feline welfare.</dd>
+
+              <dt>Adoption and Placement:</dt>
+              <dd>We are dedicated to finding loving forever homes for every cat in our care. Our adoption process
+                prioritizes
+                the well-being of both the cats and their future families, ensuring that each match is a perfect fit.
+              </dd>
+
+              <dt>Celebration of Cats:</dt>
+              <dd>Above all, we celebrate the unique personalities, beauty, and resilience of cats. Through our
+                programs
+                and
+                outreach efforts, we strive to raise awareness of the joy and companionship that cats bring into our
+                lives.
+              </dd>
+            </dl>
+          </div>
+        </article>
+      </section>
+    </div>
+  </div>
+
+
+  <!-- Bookmark to go up -->
+  <a href="#" class="position-fixed bottom-0 end-0 p-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-arrow-up-circle icon-color"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+    </svg>
+  </a>
+  <!-- footer -->
+  <footer class="bg-footer text-center fs-5 fw-semibold py-4">
+    <div class="container">
+      <p class="mb-0">© 2024 The Cat's Meow Sanctuary. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Links for Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

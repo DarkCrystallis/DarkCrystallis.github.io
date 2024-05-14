@@ -1,0 +1,166 @@
+/* Common CSS */
+
+body{
+    background-color:#eee;
+}
+
+/* navbar style*/
+.bg-navbar {
+    background-color: #dbdfb7;
+}
+
+/* color for the bookmark icon */
+.icon-color { 
+    fill: #809780;
+}
+
+/* aside title to prevent text overflowing from the container */
+.word-wrap-break {
+    word-wrap: break-word;
+  }
+
+/* white bordered images style */
+.border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+.border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+hr.hr-primary {
+    border-top-color: #CC164D!important;
+}
+
+/* social media aside img width */
+.social-w {
+width: 40%
+}
+
+/* Color for instagram, facebook and youtube btns */
+.btn-ig-color {
+    background-color: #e6c2d0;
+}
+.btn-fb-color {
+    background-color: #90cdf0;
+}
+.btn-yt-color {
+    background-color: #f77777;
+}
+
+/* footer style*/
+.bg-footer {
+    background-color: #dbdfb7;
+}
+
+
+/* Custom CSS for responsiveness for Text */
+@media (max-width: 575.98px) { /* Extra small devices (xs) */
+    
+  .nav-size {
+      font-size: 1rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 0.9rem;          /* h1 in banner */
+  }
+  h1.p-3 {
+      padding: 0.5rem !important; /* padding in h1 */
+    }
+  h2 {
+      font-size: 1.3rem;          /* Text in h2 */
+    }
+  .p-size, h3, h5 {
+      font-size: 1rem !important;   /* Text in parragraphs and h3, h5 */
+  }
+}
+
+@media (min-width: 576px) { /* Small devices (sm) and up */
+  
+  .nav-size {
+      font-size: 1rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 1rem;            /* h1 in banner */
+  }
+  h1.p-3 {
+      padding: 0.5rem !important; /* padding in h1 */
+    }
+  h2 {
+      font-size: 1.5rem;        /* Text in h2 */
+    }
+  .p-size, h3, h5  {
+      font-size: 1.2rem !important;     /* Text in parragraphs and h3, h5 */
+  }
+  .p-size2 {
+      font-size: 1rem;        /* Text in "Tips for adoption" */
+  }
+}
+
+@media (min-width: 768px) { /* Medium devices (md) and up */
+  
+  .nav-size {
+      font-size: 1rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 1.5rem;        /* h1 in banner */
+  }
+  h2 {
+      font-size: 1.8rem;     /* Text in h2 */
+    }
+  .p-size, h3, h5  {
+      font-size: 1.4rem !important;    /* Text in parragraphs and h3, h5 */
+  }
+  .p-size2 {
+      font-size: 1rem;        /* Text in "Tips for adoption" */
+  }
+}
+
+@media (min-width: 992px) { /* Large devices (lg) and up */
+  
+  .nav-size {
+      font-size: 1.1rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 2rem;          /* h1 in banner */
+  }
+  h2 {
+      font-size: 2.1rem;      /* Text in h2 */
+    }
+  .p-size, h3, h5  {
+      font-size: 1.6rem !important;    /* Text in parragraphs and h3, h5 */
+  }
+  .p-size2 {
+      font-size: 1rem;          /* Text in "Tips for adoption" */
+  }
+}
+
+@media (min-width: 1200px) { /* Extra large devices (xl) and up */
+  
+  .nav-size {
+      font-size: 1.5rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 2.5rem;        /* h1 in banner */
+  }
+  h2 {
+      font-size: 2.4rem;      /* Text in h2 */
+    }
+  .p-size, h3, h5  {
+      font-size: 1.6rem !important;   /* Text in parragraphs and h3, h5 */
+  }
+  .p-size2 {
+      font-size: 1.3rem !important;   /* Text in "Tips for adoption" */
+  }
+}
+
+@media (min-width: 1400px) { /* XXL devices (xxl) and up */
+  
+  .nav-size {
+      font-size: 2rem;         /* Table of Contents Text */
+  }
+  .display-5 {
+    font-size: 2.8rem; /* h1 in banner */
+  }
+  .p-size, h3, h5  {
+      font-size: 1.6rem !important;    /* Text in parragraphs and h3, h5 */
+  }
+}

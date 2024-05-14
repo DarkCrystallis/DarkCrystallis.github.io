@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cat's Meow Sanctuary</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-navbar py-0">
+    <!-- Logo -->
+    <div class="d-flex mx-auto">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/Cat_Logo_.png" alt="logo" height="100">
+      </a>
+    </div>
+  <!-- Table of Contents -->
+  <div class="d-flex mx-auto">
+    <!-- Button so the nav menu is still accesible on small windows/mobile devices-->
+    <button class="navbar-toggler mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between display-6 fs-2 fw-normal" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item px-3">
+          <a class="nav-link nav-size" href="index.html">Home</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link nav-size" href="page1.html">About us</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link nav-size" href="gallery.html">Meet our cats</a>
+        </li>
+        <!-- Dropdown Menu -->
+        <li class="nav-item dropdown px-3">
+          <a class="nav-link dropdown-toggle nav-size" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Adoption
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="page2.html">Adoption Process</a>
+            <a class="dropdown-item" href="page3.html">Adoption Application</a>
+            <a class="dropdown-item" href="page4.html">Happy Endings</a>
+          </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Banner -->
+  <header class="position-relative">
+    <img class="img-fluid w-100" src="assets/img/banner_1.jpg" alt="banner">
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-light">
+      <h1 class="display-5 fw-normal text-uppercase bg-dark bg-opacity-25 p-3 rounded mb-0">Welcome to <br>"The Cat's
+        Meow Sanctuary"</h1>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <main class="row p-4">
+      <!-- What we do title -->
+      <section class="mx-2">
+        <h2 class="text-uppercase text-letter-spacing-xs mb-1 fw-semibold text-center col-12">What we do</h2>
+        <hr class="hr-primary mb-5 mx-auto col-6">
+        <!-- Images -->
+        <div class="row">
+          <figure class="col-lg-10 col-xl-5 mx-auto">
+            <div>
+              <img src="assets/img/sanctuary_7.jpg" alt="cat sanctuary" class="img-fluid mb-3 rounded shadow w-100">
+            </div>
+            <!-- Image carousel -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto shadow mb-5" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/sanctuary_14.jpg" class="d-block w-100 rounded" alt="sanctuary">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/sanctuary_4.jpeg" class="d-block w-100 rounded" alt="sanctuary">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/sanctuary_6.jpg" class="d-block w-100 rounded" alt="sanctuary">
+                </div>
+              </div>
+            </div>
+          </figure>
+          <!-- What we do text -->
+          <p class="text-start fs-4 p-3 p-size col-md-12 col-lg-9 col-xl-5">At The Cat's Meow Sanctuary, we provide a
+            haven for our feline
+            friends in
+            need and a sanctuary for
+            those seeking to make a difference in the lives of cats. With our unwavering commitment to the
+            well-being of every cat that comes through our doors, we strive to create a nurturing environment
+            where they can flourish and thrive.
+            <br><br>
+            Our sanctuary is more than just a shelter—it's a home where cats receive the love, care, and
+            attention they deserve. From cozy beds to enriching toys and stimulating environments, we go above
+            and beyond to ensure that each cat's physical and emotional needs are met.
+            <br><br>
+            In addition to providing a safe haven for cats, we also offer a range of services aimed at both cats
+            and cat lovers alike. For those considering adoption, we provide a curated selection of cats of all
+            ages and backgrounds, each ready to bring joy and companionship into a new home. Our adoption
+            process is thorough and personalized, ensuring that each cat finds the perfect match.
+            <br><br>
+            Furthermore, we welcome volunteers who wish to lend a helping hand and contribute to the well-being
+            of our residents. Whether it's socializing cats, assisting with daily care routines, or helping with
+            administrative tasks, our volunteers play a vital role in enriching the lives of our furry friends.
+            Their dedication and compassion make a significant impact on the lives of our cats, and we are
+            incredibly grateful for their support.
+            <br><br>
+            Beyond adoption and volunteering, The Cat's Meow Sanctuary serves as a resource for education and
+            advocacy, promoting responsible pet ownership and raising awareness about the welfare of cats in our
+            community. Through educational workshops, outreach programs, and community events, we strive to
+            empower individuals to become responsible and compassionate cat guardians.
+            <br><br>
+            At the heart of our mission is the belief that every cat deserves love, care, and a place to call
+            home. We are committed to making that belief a reality every day, one purr at a time. Join us in our
+            mission to make The Cat's Meow Sanctuary a beacon of hope and compassion for cats in need. Together,
+            we can make a difference in the lives of cats and create a brighter future for them.
+          </p>
+          <!-- Our Vets aside -->
+          <aside class="col-md-12 col-lg-3 col-xl-2">
+            <div class="mt-3 p-3 rounded-3 bg-light shadow">
+              <h2 class="word-wrap-break text-uppercase text-letter-spacing-xs mb-1 mt-4 fw-semibold text-center">Our
+                Veterinarians</h2>
+              <hr class="hr-primary mb-5">
+              <figure class="d-flex justify-content-center">
+                <img src="assets/img/vet_4.jpg" alt="vet" class="img-fluid rounded">
+              </figure>
+              <br><br>
+              <p class="fs-5 p-size text-center">Every cat here has a name, a microchip, a medical record and receives
+                regular
+                veterinary
+                visits
+                from the
+                various veterinary technicians that volunteer with us.</p>
+              <br><br>
+              <!-- Veterinary clinics links -->
+              <ul class="list-unstyled text-center col-md-8 col-lg-12 mx-auto">
+                <li class="mb-3">
+                  <a href="https://consultafelina.es/" target="_blank"><img src="assets/img/vet_1.jpg"
+                      alt="consultafelina"
+                      class="img-fluid border-white border-w-5 social-w w-100 img-fluid rounded"></a>
+                </li>
+                <li class="mb-3">
+                  <a href="http://www.vetnatura.es/" target="_blank"><img src="assets/img/vet_2.jpg" alt="vetnatura"
+                      class="img-fluid border-white border-w-5 social-w w-100 img-fluid rounded"></a>
+                </li>
+                <li class="mb-0">
+                  <a href="https://upendiclinicaveterinaria.com/" target="_blank"><img src="assets/img/vet_3.jpg"
+                      alt="upendi" class="img-fluid border-white border-w-5 social-w w-100 img-fluid rounded"></a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Bookmark to go up -->
+  <a href="#" class="position-fixed bottom-0 end-0 p-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-arrow-up-circle icon-color"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+    </svg>
+  </a>
+  <!-- Footer -->
+  <footer class="bg-footer text-center fs-5 fw-semibold py-4">
+    <div class="container">
+      <p class="mb-0 p-size">© 2024 The Cat's Meow Sanctuary. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Links for Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
