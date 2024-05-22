@@ -60,7 +60,7 @@ width: 40%
       font-size: 1rem;         /* Table of Contents Text */
   }
   .display-5 {
-    font-size: 0.9rem;          /* h1 in banner */
+    font-size: 0.5rem;          /* h1 in banner */
   }
   h1.p-3 {
       padding: 0.5rem !important; /* padding in h1 */
